@@ -31,3 +31,4 @@
 /Users/khushaal/Desktop/proxy-app/PApp/obj/Debug/net8.0/PApp.genruntimeconfig.cache
 /Users/khushaal/Desktop/proxy-app/PApp/obj/Debug/net8.0/ref/PApp.dll
 /Users/khushaal/Desktop/proxy-app/PApp/obj/Debug/net8.0/PApp.sourcelink.json
+/Users/khushaal/Desktop/proxy-app/PApp/bin/Debug/net8.0/Newtonsoft.Json.dll

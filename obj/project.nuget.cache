@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dOdtmRqOprY4WLPJ+BJxnqygJo/1McwkALmqvicJmwe9a/+YCf2HfMu3QNZB1DCRvm8OhfE2y+/zvs5wSTEHvg==",
+  "dgSpecHash": "xf2wyZIJ45iO1dXrnAwb2E52dZgh2cp/GOUfB0Cq8ioejyb8tx4dsA351cnEsg/YpSZEgbjuCg6j2lSFMi7GRg==",
   "success": true,
   "projectFilePath": "/Users/khushaal/Desktop/proxy-app/PApp/PApp.csproj",
   "expectedPackageFiles": [
     "/Users/khushaal/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/khushaal/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/khushaal/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/khushaal/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/khushaal/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/khushaal/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
