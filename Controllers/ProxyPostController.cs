@@ -19,7 +19,7 @@ public class ProxyController : ControllerBase
         try
         {
             // Call the helper method to make the POST request
-            var response = await MakePostRequest(request.Url, request.Information);
+            var response = await MakePostRequest(request.Url, request.Body);
             return Ok(response);
         }
         catch (Exception ex)
@@ -29,15 +29,15 @@ public class ProxyController : ControllerBase
         }
     }
     private async Task<string> MakePostRequest(string url, string information)
-{
-    var client = _clientFactory.CreateClient();
+    {
+        var client = _clientFactory.CreateClient();
 
-    var content = new StringContent(information, Encoding.UTF8, "application/json");
-    var response = await client.PostAsync(url, content);
+        var content = new StringContent(information, System.Text.Encoding.UTF8, "application/json");
+        var response = await client.PostAsync(url, content);
 
-    response.EnsureSuccessStatusCode();
+        response.EnsureSuccessStatusCode();
 
-    return await response.Content.ReadAsStringAsync();
+        return await response.Content.ReadAsStringAsync();
 }
 }
 
